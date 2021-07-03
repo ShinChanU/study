@@ -8,7 +8,7 @@ function getClock() {
   clock.innerText = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
 }
 
-// setInterval(arg1, arg2) : arg1= 실행할 함수이름, arg2= 주기(ms)
+// setInterval(arg1, arg2): arg1= 실행할 함수이름, arg2= 주기(ms)
 // setInterval(sayHello, 5000); 
 
 getClock();
