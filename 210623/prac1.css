@@ -1,0 +1,44 @@
+h1 img {
+  width: 30px;
+}
+body {
+  margin: 0;
+  background-color: rgb(152, 196, 152);
+}
+header {
+  color: rgb(14, 10, 10);
+  background-color: rgb(211, 198, 198);
+}
+h1 {
+  text-align: center;
+  background-color: rgb(61, 133, 61);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  border: 5px solid rgb(187, 202, 187);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.headline {
+  text-align: center;
+  font-size: 30px;
+  margin: 15px;
+  color: red;
+  font-weight: bold;
+}
+.sub {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.article {
+  padding: 20px;
+  border: solid 5px rgb(187, 202, 187);
+}
+li {
+  list-style-type: none;
+}
+ul {
+  padding-left: 0;
+}

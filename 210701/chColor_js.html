@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script type="text/javascript">
+    function chColor() {
+      let arrColor = ["#ff0", "#6c0", "#fcf", "#cf0","#39f"];
+      // console.dir(arrColor);
+      let arrNum = Math.floor(Math.random() * (arrColor.length));
+      // console.dir(arrNum);
+      let bodyTag = document.getElementsByTagName("body")[0];
+      // console.dir(bodyTag);
+      bodyTag.style.backgroundColor = arrColor[arrNum];
+    }
+  </script>
+</head>
+<body>
+  <button onclick="chColor()">배경색상 바꾸기</button>
+</body>
+</html>
